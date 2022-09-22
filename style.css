@@ -1,0 +1,146 @@
+body {
+  font-family: "Roboto";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-image: url("./bg.jpg");
+  height: 100vh;
+  background-size: cover;
+}
+.wrapper {
+  height: 100%;
+  margin: auto;
+  width: 1000px;
+}
+
+.header-menu {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  text-transform: uppercase;
+  color: white;
+}
+
+.menu-buttons {
+  padding-top: 10px;
+
+  display: flex;
+}
+
+.menu-button {
+  color: white;
+  margin-left: 35px;
+  justify-content: space-between;
+  font-size: 25px;
+}
+
+.logo {
+  padding-top: 250px;
+  color: white;
+  font-weight: 700;
+  font-size: 70px;
+  text-align: center;
+}
+
+.button {
+  width: 70px;
+  background-color: white;
+  color: black;
+  margin: auto;
+  text-align: center;
+  height: 70px;
+  width: 200px;
+  padding-top: 20px;
+  box-sizing: border-box;
+  font-size: 23px;
+}
+.button:hover {
+  background-color: black;
+  color: white;
+}
+
+.about {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-content {
+  width: 550px;
+}
+
+.about-title {
+  font-size: 64px;
+  text-align: center;
+  line-height: 64px;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-link {
+  display: block;
+  background-color: black;
+  width: 190px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 23px 0 23px 0;
+  margin: auto;
+}
+
+.services {
+  height: 100vh;
+}
+.services-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services-left {
+  width: 450px;
+}
+
+.services-title {
+  font-size: 72px;
+  text-transform: uppercase;
+}
+
+.services-text {
+  margin-bottom: 24px;
+}
+
+.services-link {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 16px 40px;
+}
+
+.services-right {
+  font-size: 30px;
+  list-style: none;
+}
+
+.services-item {
+  margin-bottom: 48px;
+}
+
+.item-number {
+  font-size: 55px;
+  font-weight: 700;
+  margin-right: 40px;
+}
